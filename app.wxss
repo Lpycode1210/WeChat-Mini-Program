@@ -1,0 +1,142 @@
+page {
+  min-height: 100vh;
+  background: #F8F3EA;
+  color: #3C3832;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+}
+
+view,
+text,
+button,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  border-radius: 0;
+  background: transparent;
+}
+
+button::after {
+  border: 0;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 88rpx 32rpx 140rpx;
+  background:
+    radial-gradient(circle at 10% 8%, rgba(255, 255, 255, 0.76), transparent 220rpx),
+    linear-gradient(180deg, #FBF6EE 0%, #F8F3EA 52%, #FFFDF7 100%);
+}
+
+.nav-title {
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1F1C18;
+  font-size: 40rpx;
+  font-weight: 600;
+}
+
+.card {
+  border: 1rpx solid rgba(232, 222, 209, 0.88);
+  border-radius: 28rpx;
+  background: linear-gradient(145deg, #FFFDF7 0%, #F7EEDF 100%);
+  box-shadow: 0 16rpx 48rpx rgba(80, 64, 42, 0.12);
+}
+
+.soft-card {
+  border: 1rpx solid rgba(232, 222, 209, 0.72);
+  border-radius: 24rpx;
+  background: rgba(255, 253, 247, 0.78);
+  box-shadow: 0 8rpx 24rpx rgba(80, 64, 42, 0.08);
+}
+
+.primary-button {
+  height: 92rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999rpx;
+  background: #76A9D8;
+  color: #FFFFFF;
+  font-size: 30rpx;
+  font-weight: 600;
+  box-shadow: 0 12rpx 28rpx rgba(118, 169, 216, 0.28);
+}
+
+.secondary-button {
+  height: 76rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999rpx;
+  border: 1rpx solid #C9DDED;
+  background: #EAF4FC;
+  color: #4E87B8;
+  font-size: 26rpx;
+  font-weight: 500;
+}
+
+.danger-button {
+  height: 82rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999rpx;
+  background: #F9E8E3;
+  color: #B85F50;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+.section-title {
+  color: #1F1C18;
+  font-size: 34rpx;
+  font-weight: 600;
+}
+
+.muted {
+  color: #7B746A;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40rpx;
+  padding: 0 18rpx;
+  border-radius: 999rpx;
+  font-size: 22rpx;
+  font-weight: 500;
+}
+
+.tag-meeting {
+  color: #4E87B8;
+  background: #E7F2FA;
+}
+
+.tag-life {
+  color: #3F9477;
+  background: #E4F4EE;
+}
+
+.tag-done {
+  color: #777066;
+  background: #ECE7DF;
+}
+
+.tag-warning {
+  color: #A37A24;
+  background: #FBF3D8;
+}
+
+.tag-risk {
+  color: #B85F50;
+  background: #F9E8E3;
+}

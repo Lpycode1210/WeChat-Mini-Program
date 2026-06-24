@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/voice/voice",
+    "pages/report/report",
+    "pages/mine/mine",
+    "pages/event-detail/event-detail",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "个人 AI 会议日程助手",
+    "navigationBarBackgroundColor": "#F8F3EA",
+    "backgroundColor": "#F8F3EA"
+  },
+  "tabBar": {
+    "color": "#9B9488",
+    "selectedColor": "#76A9D8",
+    "backgroundColor": "#FFFDF7",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "日历"
+      },
+      {
+        "pagePath": "pages/voice/voice",
+        "text": "语音"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "text": "报告"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
